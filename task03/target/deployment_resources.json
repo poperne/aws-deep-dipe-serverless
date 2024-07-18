@@ -1,6 +1,6 @@
 {
-  "hello_api_gateway" : {
-    "name" : "hello_api_gateway",
+  "hello_world" : {
+    "name" : "hello_world",
     "lambda_path" : "/Users/Anatolii_Stoliarov/IdeaProjects/aws-deep-dipe-serverless/task03",
     "version" : "1.0.0",
     "func_name" : "com.task03.HelloApiGateway",
@@ -8,7 +8,7 @@
     "resource_type" : "lambda",
     "runtime" : "java11",
     "architectures" : [ "x86_64" ],
-    "iam_role_name" : "hello_api_gateway-role",
+    "iam_role_name" : "hello_world-role",
     "memory" : 1024,
     "timeout" : 300,
     "subnet_ids" : [ ],
